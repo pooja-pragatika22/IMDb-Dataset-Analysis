@@ -11,7 +11,6 @@ This project involves analyzing a movies dataset using SQL queries within a Jupy
 |-----------------------------|----------------------------------------------|
 | `IMDb_Dataset_Analysis.ipynb` | Jupyter Notebook containing SQL queries and results |
 | `movies.sqlite`             | SQLite database file containing IMDb data    |
-| `requirements.txt`          | (Optional) Python libraries used (e.g., sqlite3, pandas) |
 
 ---
 
@@ -20,9 +19,7 @@ This project involves analyzing a movies dataset using SQL queries within a Jupy
 - Writing and optimizing SQL queries
 - Extracting insights such as:
   - Top rated movies
-  - Genre distributions
   - Movies by director or actor
-  - Trends in ratings or release years
 
 ---
 
@@ -31,7 +28,8 @@ This project involves analyzing a movies dataset using SQL queries within a Jupy
 - SQLite
 - Jupyter Notebook
 - `sqlite3` module
-- `pandas` for displaying query results
+- `pandas`
+- `matplotlib` and `seaborn` for visualization
 
 ---
 
@@ -39,7 +37,7 @@ This project involves analyzing a movies dataset using SQL queries within a Jupy
 1. **Database Connection** – Connect to `movies.sqlite` using `sqlite3`
 2. **Schema Exploration** – Check tables and columns
 3. **SQL Querying** – Execute custom queries to explore data
-4. **Results Visualization** – Use `pandas` to display and analyze outputs
+4. **Results Visualization** – Use `matplotlib` and `seaborn` to display and analyze outputs
 
 ---
 
